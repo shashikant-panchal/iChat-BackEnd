@@ -150,7 +150,7 @@ initDb().then(() => {
   // or if explicitly run directly.
   if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
     server.listen(PORT, '0.0.0.0', () => {
-      console.log(`Server listening on port ${PORT}`);
+      console.log(`iChat is online on port ${PORT}`);
     });
   }
 }).catch(err => {
