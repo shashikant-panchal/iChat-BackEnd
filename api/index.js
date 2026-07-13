@@ -19,7 +19,7 @@ app.use(express.json());
 
 // Basic health check endpoint
 app.get('/', (req, res) => {
-  res.send({ status: 'ok', message: 'Chat App Backend is running' });
+  res.send({ status: 'ok', message: 'iChat is online' });
 });
 
 // REST APIs
